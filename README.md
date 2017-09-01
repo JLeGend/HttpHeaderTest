@@ -23,5 +23,7 @@ Once you install node.js, you need to install npm and other two modules, Express
 After that, you would be able to run the file
 
 	node server.js
-	
+
+And I set the port in .js to 3334. Just hit 127.0.0.1:3334/no-cache or /no-store or /must-revalidate
 The result is interesting. no-store actually means no-cache, while no-cache means no-cache + must revalidate + max-age=0
+You can focus on the return code change each time you hit the URL. 
